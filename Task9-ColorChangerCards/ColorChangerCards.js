@@ -1,4 +1,4 @@
-const container = document.getElementById("card-container");
+const container = document.getElementById("card-div");
 
 container.addEventListener("click", (event) => {
   
