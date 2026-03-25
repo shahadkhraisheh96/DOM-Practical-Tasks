@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="/Task11-CounterwithStyling/CounterwithStyling.js" defer></script>
+    <title> Counter with Styling</title>
+    <style>
+      #counter {
+    font-size: 25px;
+   margin: 10px;
+}
+
+#counter[data-state="positive"] { color: green; }
+#counter[data-state="negative"] { color: red; }
+#counter[data-state="zero"]     { color: black; }
+    </style>
+</head>
+<body>
+   <div class="counter-container">
+    <button id="minus">-</button>
+    <span id="counter" data-state="zero">0</span>
+    <button id="plus">+</button>
+</div>
+    
+</body>
+</html>
